@@ -85,26 +85,22 @@ Ensure that the test database is configured correctly in your `.env` file.
 ticket-system-server/
 ├── src/
 │   ├── controllers/
-│   ├── models/
+|   ├── config/
+|   ├── constants/
+|   ├── database/
+|   ├── errors/
+|   ├── middleware/
+│   ├── types/
 │   ├── routes/
 │   ├── services/
+|   ├── validators/
 │   └── index.ts
-├── tests/
+├── app.ts
+├── .dockerignore
+├── .gitignore
+├── .prettierrc
 ├── .env
 ├── docker-compose.yml
 ├── package.json
 └── tsconfig.json
 ```
-
-## 🤝 Contributing
-
-Contributions are welcome!
-Please fork the repository and submit a pull request for any enhancements or bug fixes.
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-For more information, visit the [GitHub repository](https://github.com/gabrielrosinski/ticket-system-server).
